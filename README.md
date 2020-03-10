@@ -1,16 +1,10 @@
 # Media Dubiety
-Rewrite of Dispenser's NewbieAudioVideo IRC bot for T129845
+**Media Dubiety** is an IRC bot in channels defined in `~tools.media-dubiety/channels.json`. It sends messages such as:
+* `<media-dubiety> https://tinyurl.com/CentralAuth/REDACTED (3 edits) uploaded https://commons.wikimedia.org/wiki/File:REDACTED (56.7MiB, 5 min)`
+* `<media-dubiety> REDACTED blocks User:REDACTED on simplewiki for: Reciprocal block: Violating the "one-strike" rule`
 
-Website: [Media Dubiety](https://tools.wmflabs.org/admin/tool/media-dubiety)
+## T129845
+T129845 is non-public and relates to [these discussions](https://commons.wikimedia.org/w/index.php?sort=relevance&search=%22Influx+of+files+with+embedded+data+%28CSD%23F9%29%22&title=Special:Search&profile=advanced&fulltext=1&advancedSearch-current=%7B%7D&ns4=1), although it has more of the embeddeddata project than this one.
 
-## Toolforge
-Toolforge is a hosting environment. Toolforge makes it easy for you to perform analytics, administer bots, run webservices, 
-and create tools. Tools help project editors, technical contributors, and other volunteers who work on Wikimedia projects.
-
-To learn more about toolforge [click here](https://wikitech.wikimedia.org/wiki/Portal:Toolforge).
-
-## Mediawiki
-MediaWiki is a free server-based software, licensed under the GNU General Public License (GPL). 
-It's designed to run on a large server farm for a website that gets millions of hits per day.
-
-To learn more about Mediawiki [click here](https://www.mediawiki.org/wiki/Manual:What_is_MediaWiki%3F).
+## Purpose
+The purpose of this project used to be **T129845**, but right now it's more like "*if abuse happens again we would know*".
